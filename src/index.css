@@ -1,13 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Playfair Display", serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.main {
+  background-image: url("../src/starter-code/assets/home/background-home-desktop.jpg");
+  background-size: auto;
+}
+
+.dest{
+  background-image: url("../src/starter-code/assets/destination/background-destination-desktop.jpg");
+  background-size: auto;
+  
+}
+
+.crew{
+  background-image: url("../src/starter-code/assets/crew/background-crew-desktop.jpg");
+  background-size: auto;
+}
+
+.tech{
+  background-image: url("../src/starter-code/assets/technology/background-technology-desktop.jpg");
+  background-size: auto;
 }
