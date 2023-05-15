@@ -24,6 +24,7 @@ body {
 .crew{
   background-image: url("../src/starter-code/assets/crew/background-crew-desktop.jpg");
   background-size: auto;
+  z-index: -1;
 }
 
 .tech{

@@ -1,8 +1,11 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Main from "../src/components/Main";
+// import Crew from "../src/components/Crew";
 import Crew from "../src/components/Crew";
+
 import Destination from "../src/components/Destination";
 import Technology from "../src/components/Technology";
+// import { Carousel } from "'";
 
 function App() {
   return (
